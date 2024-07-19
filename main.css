@@ -82,7 +82,7 @@ section {
 .store-front {
     margin-right: 32px;
     height: 370px;
-    border-radius :5px;
+    border-radius: 5px;
     width: 1300px;
 }
 
@@ -132,4 +132,9 @@ form button {
 }
 form button:hover {
     background-color: rgb(212, 46, 46);
+}
+footer {
+    background-color: rgb(196, 4, 4);
+    color: white;
+    padding: 16px 0;
 }

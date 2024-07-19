@@ -16,16 +16,16 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">Sobre Nós</a>
+                    <a href="#about">Sobre Nós</a>
                 </li>
                 <li>
-                    <a href="#">Contato</a>
+                    <a href="#contact">Contato</a>
                 </li>
             </ul>
         </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
             <img class="store-front" src="mg.jpg" alt="layout mg atacado" />
             <div>
@@ -53,10 +53,13 @@
                 <div>
                     <h3>Fale conosco</h3>
                     <form >
-                        <input type="text" placeholder="Seu nome">
-                        <input type="email" placeholder="Seu e-mail">
+                        <label for="nome"></label>
+                        <input id="nome" type="text" placeholder="Seu nome" required />
+                        <label for="email"></label>
+                        <input id="email" type="email" placeholder="Seu e-mail" required />
+                        <label for="tel"></label>
                         <input type="tel" placeholder="Seu telefone (opcional)">
-                        <textarea placeholder="Sua mensagem"></textarea>
+                        <textarea placeholder="Sua mensagem" required ></textarea>
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
@@ -83,11 +86,18 @@
                 <div>
                     <h3>Venha até nós</h3>
                     <p>
-                        Rua Python n 515, Vila CSS - Itajai - SC
+                        Rua Python n° 515, Vila CSS - Itajai - SC
                     </p>
                 </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy;Mg Atacado de Eletrônicos 批发电子产品 - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
