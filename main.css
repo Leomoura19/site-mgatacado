@@ -13,7 +13,7 @@ header ,
 }
 
 body {
-    background-color: rgb(17, 17, 17);
+    background-color:#85725f;
     
 }
 body, input, textarea {
@@ -21,8 +21,8 @@ body, input, textarea {
 }
 header {
     padding: 16px 0;
-    background-color: rgb(196, 4, 4);
-    color: white;
+    background-color: #8a0015;
+    color: #332d27;
 }
 
 header nav li {
@@ -74,7 +74,7 @@ section p {
 }
 
 section {
-    color: white;
+    color: #fae1c0;
 }
 
 
@@ -138,3 +138,4 @@ footer {
     color: white;
     padding: 16px 0;
 }
+
